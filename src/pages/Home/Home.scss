@@ -1,0 +1,29 @@
+.item-right {
+  float: right;
+  font-weight: 600;
+  font-style: italic;
+
+  .light {
+    color: #6a6a6a;
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+.list-group {
+  margin-bottom: 2rem !important;
+}
+
+.row {
+  margin-top: 2rem !important;
+}
+
+.item-left {
+  justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+  .full-width {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.page-link:focus,
+.page-link:hover,
+.page-link.active {
+  background-color: #124052 !important;
+  color: #fff !important;
+}
+
+.page-link {
+  color: #124052 !important;
+}
+
+.pagination {
+  justify-content: flex-end;
+}
+nav {
+  position: relative;
+}
+
+.pagination-label {
+  position: absolute;
+    bottom: 15px;
+}

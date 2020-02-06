@@ -1,0 +1,35 @@
+.details-container {
+  margin-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.table {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #114051;
+}
+
+.table thead th {
+  border-bottom: 2px solid #114051;
+}
+
+.main-table td:nth-child(even) {
+  font-weight: bold;
+}
+
+.top-margin {
+  margin-top: 2rem;
+
+}
+
+.edit-link {
+  font-size: 1.2rem;
+}

@@ -7,9 +7,52 @@
   "author": "FreightHub Recruiting Team",
   "license": "MIT",
   "scripts": {
-    "server": "json-server db.json"
+    "server": "json-server db.json",
+    "start": "webpack-dev-server --open",
+    "devbuild": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "jest --collectCoverage"
   },
   "dependencies": {
-    "json-server": "^0.14.2"
+    "axios": "^0.19.2",
+    "bootstrap": "^4.0.0-beta",
+    "json-server": "^0.14.2",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-mock-store": "^1.5.4",
+    "redux-saga": "^1.1.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.4",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^25.1.1",
+    "@types/lodash": "^4.14.149",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/redux-logger": "^3.0.7",
+    "@types/redux-mock-store": "^1.0.2",
+    "css-loader": "^3.4.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^25.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.10.2"
   }
 }

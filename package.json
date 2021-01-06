@@ -14,7 +14,7 @@
     "test": "jest --collectCoverage"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.0.0-beta",
     "json-server": "^0.14.2",
     "lodash": "^4.17.15",
